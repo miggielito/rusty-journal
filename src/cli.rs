@@ -6,7 +6,6 @@ pub enum Action {
     /// Write tasks to the journal file.
     Add {
         /// The task description text.
-
         #[structopt()]
         text: String,
     },
