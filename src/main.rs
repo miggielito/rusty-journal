@@ -1,4 +1,6 @@
 mod cli;
+use structopt::StructOpt;
+
 fn main() {
-    println!("obamacare");
+    cli::CommandLineArgs::from_args();
 }
